@@ -1,4 +1,4 @@
-# **PROJETO: helloworldlaravel**
+# **PROJETO: crudlaravel**
 Criando o primeiro repositório de exemplo no Github
 
 ## **Desenvolvido por:** Emerson Schafhauser
