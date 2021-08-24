@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 
-
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 
 <head>
@@ -31,7 +30,7 @@
         body {
             font-family: "Nunito", sans-serif;
             font-size: 0.9rem;
-            background-color: #f8fafc;
+            background-color: lightgrey;
         }
     </style>
     @stack('css')
