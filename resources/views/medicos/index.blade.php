@@ -17,7 +17,7 @@
                     <div class="d-flex justify-content-between w-100">
                         <span>@lang('Listagem de Médicos')</span>
                         <a href="{{ url('medicos/create') }}" class="btn-primary btn-sm">
-                            <i class="fa fa-plus"></i> @lang('Novo Paciente')
+                            <i class="fa fa-plus"></i> @lang('Novo Médico')
                         </a>
                     </div>
                 </div>
