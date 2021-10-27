@@ -33,7 +33,11 @@ class AlterTableConsultasAddNewColumns extends Migration
     public function down()
     {
         Schema::table('consultas', function (Blueprint $table) {
-            //
+            $table->dropForeign('consultas_convenio_cons_foreign');
+            $table->dropColumn('convenio_cons');
+            $table->dropColumn('valor_cons');
+            $table->dropColumn('observacao_cons');
+            $table->dropColumn('retorno_cons');
         });
     }
 }
